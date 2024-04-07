@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>My <span>Portfolio</span></h1>
+
+    <label class="mobile-menu-button hamburger-icon">
+      <input type="radio" name="toggle-navigation" class="open-navigation navigation-closed" autocomplete="off">
+      <span class="visually-hidden">Open Navigation</span>
+    </label>
+    <nav class="site-navigation">
+      <div class="navigation-animation-wrapper">
+        <label class="mobile-menu-button close-icon">
+          <input type="radio" name="toggle-navigation" class="close-navigation navigation-opened" autocomplete="off">
+          <span class="visually-hidden">Close navigation</span>
+        </label>
+
+        <ul class="nav-list">
+          <li style="--index: 0"><a href="#">Главная</a></li>
+          <li style="--index: 1"><a href="#About">Обо мне</a></li>
+          <li style="--index: 4"><a href="#skills">Навыки</a></li>
+          <li style="--index: 2"><a href="#hero-section">Портфолио</a></li>
+          <li style="--index: 5"><a href="#" class="button">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="left-content">
+      <h2>Привет!!<span>Меня зовут Ранель</span> Я junior Frontend разработчик</h2>
+    </div>
+
+    <div class="right-content">
+  
+    </div>
+  </main>
+
+  <section id="About">
+   <div class="container">
+    <h1 class="About-tit">Обо мне</h1>
+    <div class="info">
+      <div class="left-info">
+       <img src="img/me.jpg" width="600" height="500" class="my-photo">
+      </div>
+      <div class="right-info">
+        <p> 
+          <span>Привет! Меня зовут Ранель</span> , мне 16 лет и <span>я начинающий веб-разработчик</span>, начала заниматься программированием в октябре 2023 года на курсах в <span>IT-academy</span> . <span>Готова погрузиться</span> в увлекательный мир веб-технологий и создания крутых веб-сайтов и веб-приложений. Ниже вы найдете несколько моих проектов, над которыми я работал во время обучения.</p>
+      </div>
+    </div>
+   </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="max-width">
+        <h2 class="title">Мои навыки</h2>
+        <div class="skills-content">
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>React</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   
+</section>
+
+
+<section id="hero-section">
+  <h1 class="pro-tit">Мои работы </h1>
+  <div class="card-grid">
+    <a class="card" href="https://ranelya.github.io/cursovaya-rabota/">
+      <div class="card__background"  style="background-image: url(img/port-2.png)"></div>
+      <div class="card__content">
+        <p class="card__category"></p>
+        <h3 class="card__heading"></h3>
+      </div>
+    </a>
+    <a class="card" href="https://ranelya.github.io/cursovaya/">
+      <div class="card__background" style="background-image: url(img/port-1.png)"></div>
+      <div class="card__content">
+        <p class="card__category"></p>
+        <h3 class="card__heading"></h3>
+       
+      </div>
+    </a>
+    <a class="card" href="https://sedep040508.github.io/eot3/">
+      <div class="card__background" style="background-image: url(img/port-3.png)"></div>
+      <div class="card__content">
+        <p class="card__category"></p>
+        <h3 class="card__heading"></h3>
+        
+      </div>
+    </li>
+        
+      </div>
+    </a>
+  <div>
+</section>
+
+<scetion id="contacts">
+  <div class="container">
+    <h1 class="pro-tit">Вы можете связаться со мной </h1>
+    <div class="contact-cards">
+      <div class="contact-card">
+        <svg class='svg' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+          <path d="M 5.5 7 C 3.03125 7 1.011719 9.015625 1 11.484375 C 1 11.484375 1 11.488281 1 11.492188 C 1 11.496094 1 11.496094 1 11.5 L 1 38.5 C 1 40.972656 3.027344 43 5.5 43 L 44.5 43 C 46.972656 43 49 40.972656 49 38.5 L 49 11.5 C 49 11.496094 49 11.496094 49 11.492188 C 49 11.488281 49 11.484375 49 11.484375 C 48.988281 9.015625 46.96875 7 44.5 7 Z M 8.101563 9 L 41.902344 9 L 25 20.78125 Z M 4.773438 9.117188 L 25 23.21875 L 45.230469 9.117188 C 46.253906 9.425781 46.992188 10.355469 47 11.488281 C 46.996094 11.699219 46.78125 12.121094 46.46875 12.460938 C 46.152344 12.804688 45.84375 13.019531 45.84375 13.019531 L 45.839844 13.027344 L 25 27.777344 L 4.160156 13.027344 L 4.15625 13.019531 C 4.15625 13.019531 3.847656 12.804688 3.53125 12.460938 C 3.21875 12.121094 3.003906 11.699219 3 11.488281 C 3.007813 10.355469 3.746094 9.425781 4.773438 9.117188 Z M 3 14.652344 C 3 14.652344 3.007813 14.660156 3.007813 14.660156 L 3.015625 14.664063 L 3.015625 14.667969 L 6 16.777344 L 6 41 L 5.5 41 C 4.109375 41 3 39.890625 3 38.5 Z M 47 14.652344 L 47 38.5 C 47 39.890625 45.890625 41 44.5 41 L 44 41 L 44 16.777344 L 46.984375 14.667969 L 46.984375 14.664063 C 46.984375 14.664063 47 14.652344 47 14.652344 Z M 8 18.191406 L 25 30.222656 L 42 18.191406 L 42 41 L 8 41 Z"></path>
+          </svg>
+          <h2 class="contact-tit">
+            Мой e-mail
+          </h2>
+         <p class="contact-txt">ranelakarymsakova5@gmail.com</p>
+      </div>
+
+      <div class="contact-card">
+        <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 10C4 6.22876 4 4.34315 5.17157 3.17157C6.34315 2 8.22876 2 12 2C15.7712 2 17.6569 2 18.8284 3.17157C20 4.34315 20 6.22876 20 10V14C20 17.7712 20 19.6569 18.8284 20.8284C17.6569 22 15.7712 22 12 22C8.22876 22 6.34315 22 5.17157 20.8284C4 19.6569 4 17.7712 4 14V10Z" stroke="#1C274C" stroke-width="1.5"></path> <path d="M15 5H9" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path> <circle cx="12" cy="19" r="1" stroke="#1C274C"></circle> <path d="M4 17H20" stroke="#000000"></path> <path d="M4 7H20" stroke="#000000"></path> </g></svg>
+          <h2 class="contact-tit">
+            Мой номер телефона
+          </h2>
+         <p class="contact-txt">+996 502 00 59 99</p>
+      </div>
+
+      <div class="contact-card">
+        <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1117 4.49449C23.4296 2.94472 21.9074 1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645 14.7157L8.03849 21.2746C8.13583 21.6153 8.40618 21.8791 8.74917 21.968C9.09216 22.0568 9.45658 21.9576 9.70712 21.707L12.5938 18.8203L16.6375 21.8531C17.8113 22.7334 19.5019 22.0922 19.7967 20.6549L23.1117 4.49449ZM3.0633 11.0816L21.1525 4.0926L17.8375 20.2531L13.1 16.6999C12.7019 16.4013 12.1448 16.4409 11.7929 16.7928L10.5565 18.0292L10.928 15.9861L18.2071 8.70703C18.5614 8.35278 18.5988 7.79106 18.2947 7.39293C17.9906 6.99479 17.4389 6.88312 17.0039 7.13168L6.95124 12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908 14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z" fill="#0F0F0F"></path> </g></svg>
+          <h2 class="contact-tit">
+            Мой телеграм
+          </h2>
+         <p class="contact-txt">@qwertynyan</p>
+      </div>
+
+    </div>
+  </div>
+</scetion>
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="#">Главная</a></li>
+    <li class="menu__item"><a class="menu__link" href="#About">Обо мне</a></li>
+    <li class="menu__item"><a class="menu__link" href="#hero-section">Портфолио</a></li>
+    <li class="menu__item"><a class="menu__link" href="#skills">Навыки</a></li>
+
+  </ul>
+  <p>&copy;2024 Ranel' | All Rights Reserved</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+              <script src="core.js"></script>
+</body>
+</html>
+
